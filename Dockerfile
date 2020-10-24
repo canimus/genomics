@@ -1,4 +1,8 @@
 FROM ubuntu:20.04
+
+LABEL 'maintainer=Virginie Grosboillot email=grosboillot.virginie@gmail.com'
+LABEL 'maintainer=Herminio Vazquez email=canimus@gmail.com'
+
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Amsterdam
 RUN apt-get update
